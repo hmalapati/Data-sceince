@@ -1,1 +1,71 @@
+#boolean is one of the data type that represents one of two values either true or false:
 
+number = 10
+print(number<15) #True
+print(number>100) # False
+
+Comparison Operators:
+
+<          Less than
+>          Greater than
+==         Equal   
+!=         Not equal
+>=         Greater than or equal to
+<=         Less than or equal to
+
+
+
+number = 10
+# equal to
+print(number == 10) # True
+
+number = 10.0
+# comparing float and integer
+print(number == 10) # True
+
+number = '10'
+# comparing string and integer
+print(number == 10) # False
+
+number = '10'
+# not equal to
+print(number != 10) # True
+
+number = 10
+# less than or equal to
+print(number <= 10) # True
+
+number = 10
+# greater than or equal to
+print(number >= 10) # True
+
+#Logical Operators
+Python also has three logical operators that operate on the boolean values. Here's a list of the logical operators.
+
+
+Logical Operators:
+
+and         True if both operands are True
+or          True if either of the operands is True
+not         True if the operand is False
+
+age = 30
+percentage = 70.5
+
+result = age>=20 and percentage>=80
+print(result)#False
+True
+True
+
+age = 30
+percentage = 70.5
+
+result = age>=20 and percentage>=60
+print(result)#True
+
+
+age = 30
+percentage = 70.5
+
+result = age>=20 or percentage>=90
+print(result)#True
