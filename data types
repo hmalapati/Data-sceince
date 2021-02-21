@@ -1,0 +1,11 @@
+x = ["apple", "banana", "cherry"]
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+
+y = [5, 3, 5, 8, 2]
+
+print(type(y))
