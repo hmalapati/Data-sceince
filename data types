@@ -1,3 +1,5 @@
+#LIST
+
 x = ["apple", "banana", "cherry"]
 
 #display x:
@@ -9,3 +11,41 @@ print(type(x))
 y = [5, 3, 5, 8, 2]
 
 print(type(y))
+
+#TUPLE
+x = ("apple", "banana", "cherry")
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+
+#RANGE
+x = range(6)
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+
+
+ramu = range(100)
+print(ramu)
+print(type(ramu))
+# Dict
+x = {"name" : "John", "age" : 36}
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+
+z = 5
+print(z)
+
+xx = {"ramu": "he is good guy", "age": 35}
+print(xx)
+print(type(xx))
